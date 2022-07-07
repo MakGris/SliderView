@@ -19,9 +19,9 @@ struct ContentView: View {
     
     @State private var alertPresented = false
     
-    @FocusState var redTextFieldFocus: Bool
-    @FocusState var greenTextFieldFocus: Bool
-    @FocusState var blueTextFieldFocus: Bool
+    @FocusState private var redTextFieldFocus: Bool
+    @FocusState private var greenTextFieldFocus: Bool
+    @FocusState private var blueTextFieldFocus: Bool
     
     var body: some View {
         ZStack(alignment: .top) {
